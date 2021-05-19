@@ -1,4 +1,5 @@
 # k-nearest neighbors on the Iris Flowers Dataset
+# https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
 from random import seed
 from random import randrange
 from csv import reader
