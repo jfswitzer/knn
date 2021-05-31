@@ -4,7 +4,7 @@ from random import seed
 from random import randrange
 from csv import reader
 from math import sqrt
- 
+import sys 
 # Load a CSV file
 def load_csv(filename):
 	dataset = list()
@@ -124,7 +124,7 @@ def k_nearest_neighbors(train, test, num_neighbors):
  
 # Test the kNN on the Iris Flowers dataset
 seed(1)
-filename = 'iris.csv'
+filename = 'datasets/'+sys.argv[1]
 dataset = load_csv(filename)
 for i in range(len(dataset[0])-1):
 	str_column_to_float(dataset, i)

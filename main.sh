@@ -1,1 +1,10 @@
-python3 main.py
+python3 main.py diabetes.csv
+python3 main.py iris.csv
+python3 main.py diabetes.csv
+python3 main.py iris.csv
+python3 main.py diabetes.csv
+python3 main.py iris.csv
+python3 main.py diabetes.csv
+python3 main.py iris.csv
+python3 main.py diabetes.csv
+python3 main.py iris.csv
